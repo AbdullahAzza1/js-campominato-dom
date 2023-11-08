@@ -25,13 +25,15 @@ function creaQuadrato(numero) {
 
     return cella;
 }
-//creare dei numeri casuali
+//creiamo dei numeri casuali
 
 
-//function griglia() {
-    //return Math.floor(Math.random() * 16);
-    //document.getElementById("griglia").innerHTML ="Numero casuale " + numCelle;
-//}
+for (let i = 1; i < 16; i++) {
+    
+    num = Math.floor(Math.random() * 16);
 
-let numCasuali = Math.floor(Math.random()*16)
-console.log(numCasuali);
+    if (num == grid) {
+        console.log("cella giusta", num);
+    }
+    
+}
