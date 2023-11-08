@@ -26,7 +26,10 @@ function creaQuadrato(numero) {
     return cella;
 }
 //creare dei numeri casuali
-function griglia() {
-    return Math.floor(Math.random() * 16);
-    document.getElementById("griglia").innerHTML ="Numero casuale " + numCelle;
-}
+//function griglia() {
+    //return Math.floor(Math.random() * 16);
+    //document.getElementById("griglia").innerHTML ="Numero casuale " + numCelle;
+//}
+
+let numCasuali = Math.floor(Math.random()*16)
+console.log(numCasuali);
